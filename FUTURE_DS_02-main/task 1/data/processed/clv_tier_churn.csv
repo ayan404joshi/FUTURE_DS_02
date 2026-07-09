@@ -1,0 +1,4 @@
+clv_tier,customers,churn_rate,avg_clv
+High,2500,0.2228,941.204996
+Low,2500,0.7156,95.14070799999999
+Medium,2500,0.5836,321.410724

@@ -1,0 +1,28 @@
+{
+  "raw_rows": 7650,
+  "raw_columns": 19,
+  "duplicate_rows_removed": 150,
+  "missing_values_imputed": {
+    "plan_type": 0,
+    "churn_reason": 3847,
+    "payment_method": 90,
+    "region": 0,
+    "age_group": 0,
+    "acquisition_channel": 0,
+    "support_tickets_raised": 112,
+    "usage_frequency": 0,
+    "tenure_months": 0,
+    "upsell_count": 0,
+    "downsell_count": 0,
+    "monthly_charge": 0,
+    "last_login_date": 90
+  },
+  "outliers_capped": {
+    "usage_frequency": 1,
+    "support_tickets_raised": 51,
+    "monthly_charge": 475,
+    "discount_pct": 1109
+  },
+  "cleaned_rows": 7500,
+  "cleaned_columns": 27
+}

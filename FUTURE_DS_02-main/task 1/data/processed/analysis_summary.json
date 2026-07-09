@@ -1,0 +1,172 @@
+{
+  "total_customers": 7500,
+  "churn_rate": 0.5073333333333333,
+  "avg_clv": 452.585476,
+  "avg_tenure": 12.436533333333333,
+  "avg_monthly_charge": 37.823469833333334,
+  "usage_churn_spearman": -0.44659275683945826,
+  "support_churn_spearman": 0.3717345962321458,
+  "top_reason_1": "billing",
+  "top_reason_1_share": 0.4346911957950066,
+  "top_reason_2": "price sensitivity",
+  "top_reason_2_share": 0.15558475689881734,
+  "top_two_reason_share": 0.5902759526938239,
+  "high_value_churn_rate": 0.2228,
+  "high_value_share": 0.3333333333333333,
+  "churn_by_plan": [
+    {
+      "plan_type": "Basic",
+      "customers": 3155,
+      "churn_rate": 0.719175911251981
+    },
+    {
+      "plan_type": "Premium",
+      "customers": 1449,
+      "churn_rate": 0.27605244996549344
+    },
+    {
+      "plan_type": "Standard",
+      "customers": 2896,
+      "churn_rate": 0.39226519337016574
+    }
+  ],
+  "churn_by_region": [
+    {
+      "region": "APAC",
+      "customers": 1495,
+      "churn_rate": 0.5103678929765886
+    },
+    {
+      "region": "Europe",
+      "customers": 1750,
+      "churn_rate": 0.5017142857142857
+    },
+    {
+      "region": "Latin America",
+      "customers": 1403,
+      "churn_rate": 0.5424091233071988
+    },
+    {
+      "region": "North America",
+      "customers": 2852,
+      "churn_rate": 0.49193548387096775
+    }
+  ],
+  "churn_by_channel": [
+    {
+      "acquisition_channel": "Direct",
+      "customers": 1332,
+      "churn_rate": 0.4827327327327327
+    },
+    {
+      "acquisition_channel": "Email",
+      "customers": 857,
+      "churn_rate": 0.5297549591598599
+    },
+    {
+      "acquisition_channel": "Organic Search",
+      "customers": 1884,
+      "churn_rate": 0.5037154989384289
+    },
+    {
+      "acquisition_channel": "Paid Ads",
+      "customers": 1317,
+      "churn_rate": 0.6271829916476841
+    },
+    {
+      "acquisition_channel": "Partnerships",
+      "customers": 920,
+      "churn_rate": 0.4815217391304348
+    },
+    {
+      "acquisition_channel": "Referral",
+      "customers": 1190,
+      "churn_rate": 0.4117647058823529
+    }
+  ],
+  "churn_by_payment": [
+    {
+      "payment_method": "ACH",
+      "customers": 874,
+      "churn_rate": 0.545766590389016
+    },
+    {
+      "payment_method": "Card",
+      "customers": 4826,
+      "churn_rate": 0.5041442188147535
+    },
+    {
+      "payment_method": "PayPal",
+      "customers": 1207,
+      "churn_rate": 0.4979287489643745
+    },
+    {
+      "payment_method": "Wallet",
+      "customers": 593,
+      "churn_rate": 0.4957841483979764
+    }
+  ],
+  "monthly_trend_last_value": 0.6206896551724138,
+  "pareto_reasons": [
+    {
+      "churn_reason": "billing",
+      "count": 1654,
+      "share": 0.4346911957950066,
+      "cumulative_share": 0.4346911957950066
+    },
+    {
+      "churn_reason": "price sensitivity",
+      "count": 592,
+      "share": 0.15558475689881734,
+      "cumulative_share": 0.5902759526938239
+    },
+    {
+      "churn_reason": "competitor",
+      "count": 475,
+      "share": 0.12483574244415244,
+      "cumulative_share": 0.7151116951379763
+    },
+    {
+      "churn_reason": "no usage",
+      "count": 457,
+      "share": 0.12010512483574244,
+      "cumulative_share": 0.8352168199737188
+    },
+    {
+      "churn_reason": "product dissatisfaction",
+      "count": 314,
+      "share": 0.08252299605781865,
+      "cumulative_share": 0.9177398160315374
+    },
+    {
+      "churn_reason": "support issues",
+      "count": 313,
+      "share": 0.08226018396846255,
+      "cumulative_share": 1.0
+    }
+  ],
+  "cohort_shape": [
+    36,
+    36
+  ],
+  "clv_tier_churn": [
+    {
+      "clv_tier": "High",
+      "customers": 2500,
+      "churn_rate": 0.2228,
+      "avg_clv": 941.204996
+    },
+    {
+      "clv_tier": "Low",
+      "customers": 2500,
+      "churn_rate": 0.7156,
+      "avg_clv": 95.14070799999999
+    },
+    {
+      "clv_tier": "Medium",
+      "customers": 2500,
+      "churn_rate": 0.5836,
+      "avg_clv": 321.410724
+    }
+  ]
+}
